@@ -15,10 +15,11 @@
         display: flex;
     }
     .experience, 
-    .experience-details-container{
+    .experience-details-container {
         margin-top: 2rem;
     }
-    #profile{
+    #profile,
+    .section-container {
         display: block;
     }
     .arrow{
@@ -41,7 +42,8 @@
     }
 }
 @media screen and (max-width: 600px){
-    #contact, footer{
+    #contact, 
+    footer {
         height: 40vh;
     }
     #profile{
@@ -55,7 +57,7 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-container,
+    .about-containers,
     .contact-info-upper-container,
     .btn-container{
         flex-wrap: wrap;
@@ -92,4 +94,8 @@
     .text-container{
         text-align: justify;
     }
+   /* #about .about-details-container{
+        margin-right: 25px;
+        margin-bottom: 100px;
+    }*/
 }
